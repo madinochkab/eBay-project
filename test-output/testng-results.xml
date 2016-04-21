@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="4" total="4" passed="0">
   <reporter-output>
   </reporter-output>
@@ -124,6 +125,30 @@
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.IllegalArgumentException: argument type mismatch
+=======
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75" started-at="2016-04-21T02:49:50Z" finished-at="2016-04-21T02:49:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75" started-at="2016-04-21T02:49:50Z" finished-at="2016-04-21T02:49:50Z">
+      <class name="com.sqa.ms.moster.delete">
+        <test-method status="FAIL" signature="testGoogleSearch()[pri:0, instance:com.sqa.ms.moster.delete@6d3f6300]" name="testGoogleSearch" duration-ms="35" started-at="2016-04-20T19:49:50Z" finished-at="2016-04-20T19:49:50Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+	Unhandled exception type InterruptedException
+	Unhandled exception type InterruptedException
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+	Unhandled exception type InterruptedException
+	Unhandled exception type InterruptedException
+
+	at com.sqa.ms.moster.delete.testGoogleSearch(delete.java:22)
+>>>>>>> general-project
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,6 +175,7 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 ]]>
             </full-stacktrace>
+<<<<<<< HEAD
           </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
@@ -191,6 +217,13 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- com.sq.ms.BasicAutoTest -->
+=======
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+      </class> <!-- com.sqa.ms.moster.delete -->
+>>>>>>> general-project
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
