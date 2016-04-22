@@ -30,7 +30,7 @@ public class BasicAutoTest {
 
 	}
 
-	@BeforeClass(enabled = true, groups = "chrome")
+	@BeforeClass(enabled = true, groups = "opera")
 	public static void setupOpera() throws InterruptedException {
 		System.setProperty("webdriver.opera.driver", "drivers/operadriver");
 		driver = new OperaDriver();
