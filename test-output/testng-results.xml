@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45836" started-at="2016-04-22T04:48:26Z" finished-at="2016-04-22T04:49:11Z">
+  <suite name="Default suite" duration-ms="6636" started-at="2016-04-29T02:23:07Z" finished-at="2016-04-29T02:23:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45836" started-at="2016-04-22T04:48:26Z" finished-at="2016-04-22T04:49:11Z">
-      <class name="com.sqa.ms.LocatorTests">
-        <test-method status="PASS" signature="setupFirefox()[pri:0, instance:com.sqa.ms.LocatorTests@47544942]" name="setupFirefox" is-config="true" duration-ms="4701" started-at="2016-04-21T21:48:26Z" finished-at="2016-04-21T21:48:30Z">
+    <test name="Default test" duration-ms="6636" started-at="2016-04-29T02:23:07Z" finished-at="2016-04-29T02:23:13Z">
+      <class name="com.sqa.ms.util.helpers.BasicAutomationTest">
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.sqa.ms.util.helpers.BasicAutomationTest@2ccddcf6]" name="loadProperties" is-config="true" duration-ms="22" started-at="2016-04-28T19:23:07Z" finished-at="2016-04-28T19:23:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupFirefox -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.sqa.ms.LocatorTests@47544942]" name="test1" duration-ms="7949" started-at="2016-04-21T21:48:30Z" finished-at="2016-04-21T21:48:38Z">
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.sqa.ms.util.helpers.BasicAutomationTest@2ccddcf6]" name="setUpTest" duration-ms="6559" started-at="2016-04-28T19:23:07Z" finished-at="2016-04-28T19:23:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.sqa.ms.LocatorTests@47544942]" name="test2" duration-ms="33144" started-at="2016-04-21T21:48:38Z" finished-at="2016-04-21T21:49:11Z">
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.sqa.ms.util.helpers.BasicAutomationTest@2ccddcf6]" name="f" duration-ms="5" started-at="2016-04-28T19:23:13Z" data-provider="dp" finished-at="2016-04-28T19:23:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- com.sqa.ms.LocatorTests -->
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.sqa.ms.util.helpers.BasicAutomationTest@2ccddcf6]" name="f" duration-ms="5" started-at="2016-04-28T19:23:13Z" data-provider="dp" finished-at="2016-04-28T19:23:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.sqa.ms.util.helpers.BasicAutomationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
