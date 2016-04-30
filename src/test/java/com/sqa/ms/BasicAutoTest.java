@@ -101,7 +101,9 @@ public class BasicAutoTest {
 		System.out.println("text present (" + signInLink.getText() + ")");
 		// Assert.assertTrue(isElementPresent(By.partialLinkText("Sign Name")));
 		// better use names in separate file for different users
-		Assert.assertEquals("Hi Madina!", signInLink.getText());
+		String actualSignInText = signInLink.getText();
+		String expectedResult = "Hi Madina!";
+		Assert.assertEquals(expectedResult, actualSignInText);
 	}
 
 	/**
