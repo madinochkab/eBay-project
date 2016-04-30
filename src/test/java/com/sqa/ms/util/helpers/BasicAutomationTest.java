@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class BasicAutomationTest {
 
-	private String baseURL = "http://google.com";
+	private String baseURL = "http://ebay.com";
 	private Properties devProps;
 	private String devPropsLocation = "src/main/resources/dev.properties";
 	private String sharedMapUILocation = "src/main/resources/shared-map-ui.properties";

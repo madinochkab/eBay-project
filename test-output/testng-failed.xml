@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sqa.ms.LocatorTests">
+      <class name="com.sqa.ms.BasicAutoTest">
         <methods>
-          <include name="test"/>
+          <include name="loadProperties"/>
+          <include name="testLogin" invocation-numbers="0"/>
           <include name="setupFirefox"/>
         </methods>
-      </class> <!-- com.sqa.ms.LocatorTests -->
+      </class> <!-- com.sqa.ms.BasicAutoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
