@@ -94,9 +94,14 @@ public class BasicAutoTest {
 	public void testLogin(String username, String password) throws InterruptedException {
 		clickSigninBtn();
 		enterCredentialsAndLogin(username, password);
-		if (isElementPresent(By.partialLinkText("Sign"))) {
-			Assert.fail("Did not sign in correctly.");
-		}
+		// if (isElementPresent(By.partialLinkText("Sign"))) {
+		// Assert.fail("Did not sign in correctly.");
+		// }
+		WebElement signInLink = driver.findElement(By.id("gh-ug"));
+		System.out.println("text present (" + signInLink.getText() + ")");
+		// Assert.assertTrue(isElementPresent(By.partialLinkText("Sign Name")));
+		// better use names in separate file for different users
+		Assert.assertEquals("Hi Madina!", signInLink.getText());
 	}
 
 	/**
